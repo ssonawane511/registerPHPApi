@@ -1,0 +1,158 @@
+/** @format */
+
+#form_container {
+  width: 100%;
+  min-height: 460px;
+  margin: 120px 50px 30px 50px;
+}
+.col-lg-5 {
+  background-color: #f60;
+}
+
+#container-row {
+  margin: 50px;
+}
+.row {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+#left_form {
+  min-height: 460px;
+  color: #fff;
+
+  box-sizing: border-box;
+}
+
+#left_form h2 {
+  font-weight: 300;
+  color: #fff;
+  margin: 15px 0;
+  padding: 0;
+  font-size: 36px;
+  text-align: center;
+}
+#left_form p {
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.wizard_container {
+  position: relative;
+  min-height: 450px;
+}
+
+.left-form-button {
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  background: #f60;
+}
+#container-row {
+  box-shadow: 3px 3px 10px rgb(121, 121, 121);
+}
+
+figure {
+  margin: 0 0 1rem;
+  display: inline-block;
+  align-content: center;
+  padding: 0px 65px;
+  text-align: center;
+}
+
+#image {
+  height: auto;
+  max-width: 150px;
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  margin: 0 0 1rem;
+  object-fit: cover;
+}
+
+.register-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-btn button {
+  border-radius: 25px;
+  width: 70%;
+  margin: 5px auto;
+}
+.event-heading {
+  margin-top: 20px;
+}
+.event-heading p {
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 21, 21);
+  font-family: "Lato", sans-serif;
+}
+.event-heading h1 {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+
+.event-description p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+#home {
+}
+
+#register-form {
+  display: none;
+}
+
+#view-registration {
+  display: none;
+}
+
+#comfirm-register-btn {
+  background-color: #f60;
+  color: white;
+  border-radius: 10px;
+}
+
+#register-table {
+}
+
+#home-btn {
+  outline: 0;
+  background: none;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+  border-radius: unset;
+  width: inherit;
+  cursor: pointer;
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+#home-btn:hover {
+  outline: 0;
+  font-size: 18px;
+  opacity: 100%;
+}
+#table-b td {
+  vertical-align: middle;
+}
+
+.step span {
+  color: rgb(255, 0, 0);
+}
+
+#home-btn:focus {
+  outline: 0px !important;
+}
